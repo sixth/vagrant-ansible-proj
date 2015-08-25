@@ -14,8 +14,8 @@
 - hosts: web
   sudo: yes
   vars:
-    https://github.com/sixth/www/releases
-    app_version: "v1.0"
+    # https://github.com/sixth/www/releases
+    app_version: v1.0
   serial: 1
 
   pre_tasks:
