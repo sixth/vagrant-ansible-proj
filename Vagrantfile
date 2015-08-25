@@ -4,7 +4,7 @@
 
 Vagrant.configure("2") do |config|
   
-  # create mgmt node
+  # create ansible mgmt node
   config.vm.define :mgmt do |mgmt_config|
       mgmt_config.vm.box = "ubuntu/trusty64"
       mgmt_config.vm.hostname = "mgmt"
